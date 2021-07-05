@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Timer/Timer.module.css"],"names":[],"mappings":"AAAA,oBACE,YAAa,CACb,kBAAmB,CACnB,qBACF","file":"main.b95d97de.chunk.css","sourcesContent":[".timer {\r\n  display: flex;\r\n  align-items: center;\r\n  flex-direction: column;\r\n}\r\n"]}
