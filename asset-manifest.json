@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/itop1000-test-work/static/js/main.e4e5c843.chunk.js",
-    "main.js.map": "/itop1000-test-work/static/js/main.e4e5c843.chunk.js.map",
-    "runtime-main.js": "/itop1000-test-work/static/js/runtime-main.7421373e.js",
-    "runtime-main.js.map": "/itop1000-test-work/static/js/runtime-main.7421373e.js.map",
-    "static/js/2.bb19155c.chunk.js": "/itop1000-test-work/static/js/2.bb19155c.chunk.js",
-    "static/js/2.bb19155c.chunk.js.map": "/itop1000-test-work/static/js/2.bb19155c.chunk.js.map",
-    "index.html": "/itop1000-test-work/index.html",
-    "static/js/2.bb19155c.chunk.js.LICENSE.txt": "/itop1000-test-work/static/js/2.bb19155c.chunk.js.LICENSE.txt"
+    "main.js": "/itop1000-test/static/js/main.e4e5c843.chunk.js",
+    "main.js.map": "/itop1000-test/static/js/main.e4e5c843.chunk.js.map",
+    "runtime-main.js": "/itop1000-test/static/js/runtime-main.c29e6551.js",
+    "runtime-main.js.map": "/itop1000-test/static/js/runtime-main.c29e6551.js.map",
+    "static/js/2.bb19155c.chunk.js": "/itop1000-test/static/js/2.bb19155c.chunk.js",
+    "static/js/2.bb19155c.chunk.js.map": "/itop1000-test/static/js/2.bb19155c.chunk.js.map",
+    "index.html": "/itop1000-test/index.html",
+    "static/js/2.bb19155c.chunk.js.LICENSE.txt": "/itop1000-test/static/js/2.bb19155c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7421373e.js",
+    "static/js/runtime-main.c29e6551.js",
     "static/js/2.bb19155c.chunk.js",
     "static/js/main.e4e5c843.chunk.js"
   ]
