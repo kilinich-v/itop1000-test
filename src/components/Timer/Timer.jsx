@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import { interval, Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
+import styles from './Timer.module.css';
 
 const Timer = () => {
   const [timerSec, setTimerSec] = useState(0);
@@ -58,19 +59,21 @@ const Timer = () => {
   }, [clickCount]);
 
   return (
-    <div>
+    <div className={styles.timer}>
       <span> {new Date(timerSec).toISOString().slice(11, 19)}</span>
-      {timerStatus === 'run' ? (
-        <button className='stop-button' onClick={stop}>
-          Stop
-        </button>
-      ) : (
-        <button className='start-button' onClick={start}>
-          Start
-        </button>
-      )}
-      <button onClick={reset}>Reset</button>
-      <button onClick={wait}>Wait</button>
+      <div>
+        {timerStatus === 'run' ? (
+          <button className='stop-button' onClick={stop}>
+            Stop
+          </button>
+        ) : (
+          <button className='start-button' onClick={start}>
+            Start
+          </button>
+        )}
+        <button onClick={reset}>Reset</button>
+        <button onClick={wait}>Wait</button>
+      </div>
     </div>
   );
 };
